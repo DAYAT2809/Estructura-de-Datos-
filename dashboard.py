@@ -3,7 +3,7 @@ import subprocess
 
 def mostrar_codigo(ruta_script):
     try:
-        with open(ruta_script, 'r') as archivo:
+        with open(ruta_script, 'r', encoding='utf-8') as archivo:
             codigo = archivo.read()
             print(f"\n--- Código de {ruta_script} ---\n")
             print(codigo)
@@ -90,7 +90,5 @@ def mostrar_sub_menu(proyectos, ruta_unidad):
         else:
             print("Opción no válida. Intenta otra vez.")
 
-# Ejecutar el menú si es el archivo principal
 if __name__ == "__main__":
     mostrar_menu()
-
