@@ -138,6 +138,14 @@ class Inventario:
 if __name__ == "__main__":
     inventario = Inventario()
 
+    # Cargar productos iniciales si el inventario está vacío
+    if not inventario.productos:
+        inventario.add_producto(Producto("P001", "CHOCOLATE", 1.30, 20))
+        inventario.add_producto(Producto("P002", "HUEVOS", 4.00, 52))
+        inventario.add_producto(Producto("P003", "TE", 1.05, 2))
+        inventario.add_producto(Producto("P004", "PAN", 1.00, 20))
+        inventario.add_producto(Producto("P005", "LECHE", 0.99, 5))
+
     while True:
         print("\n--- MENÚ DE INVENTARIO ---")
         print("1 - Añadir producto")
@@ -165,5 +173,28 @@ if __name__ == "__main__":
 
         elif opcion == "3":
             id_p = input("ID del producto a actualizar: ").strip()
+            try:
+                nuevo_precio = float(input("Nuevo precio: ").strip())
+                inventario.actualizar_precio(id_p, nuevo_precio)
+            except ValueError:
+                print("Error: Precio inválido.")
 
+        elif opcion == "4":
+            id_p = input("ID del producto a actualizar: ").strip()
+            try:
+                nueva_cantidad = int(input("Nueva cantidad: ").strip())
+                inventario.actualizar_cantidad(id_p, nueva_cantidad)
+            except ValueError:
+                print("Error: Cantidad inválida.")
 
+        elif opcion == "5":
+            id_producto = input("ID del producto a eliminar: ").strip()
+            inventario.eliminar_producto(id_producto)
+
+        elif opcion == "6":
+            print("Guardando cambios y saliendo del sistema...")
+            inventario.guardar_en_archivo()
+            break
+
+        else:
+            print("Opción no válida, intenta de nuevo.")
