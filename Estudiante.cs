@@ -2,7 +2,7 @@ using System;
 
 namespace RegistroEstudiante
 {
-     class Estudiante
+    class Estudiante
     {
         public int Id;
         public string Nombres;
@@ -18,30 +18,11 @@ namespace RegistroEstudiante
             Console.WriteLine($"Apellidos: {Apellidos}");
             Console.WriteLine($"Dirección: {Direccion}");
             Console.WriteLine("Teléfonos:");
+
             for (int i = 0; i < Telefonos.Length; i++)
             {
                 Console.WriteLine($"Teléfono {i + 1}: {Telefonos[i]}");
             }
-        }
-    }
-
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Estudiante estudiante = new Estudiante();
-
-            estudiante.Id = 1;
-            estudiante.Nombres = "Scarleth Dayana";
-            estudiante.Apellidos = "Tenecota Carvajal";
-            estudiante.Direccion = "Colinas del Norte";
-
-            estudiante.Telefonos[0] = "0987127865";
-            estudiante.Telefonos[1] = "0992929955";
-            estudiante.Telefonos[2] = "0947975055";
-
-            estudiante.MostrarDatos();
-            Console.ReadKey();
         }
     }
 }

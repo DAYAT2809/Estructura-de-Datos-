@@ -1,0 +1,15 @@
+C:\Users\Scarleth\Desktop\UNIVERSIDAD\inventario_proyecto\bin\Debug\net10.0\inventario_proyecto.exe
+C:\Users\Scarleth\Desktop\UNIVERSIDAD\inventario_proyecto\bin\Debug\net10.0\inventario_proyecto.deps.json
+C:\Users\Scarleth\Desktop\UNIVERSIDAD\inventario_proyecto\bin\Debug\net10.0\inventario_proyecto.runtimeconfig.json
+C:\Users\Scarleth\Desktop\UNIVERSIDAD\inventario_proyecto\bin\Debug\net10.0\inventario_proyecto.dll
+C:\Users\Scarleth\Desktop\UNIVERSIDAD\inventario_proyecto\bin\Debug\net10.0\inventario_proyecto.pdb
+C:\Users\Scarleth\Desktop\UNIVERSIDAD\inventario_proyecto\obj\Debug\net10.0\inventario_proyecto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Scarleth\Desktop\UNIVERSIDAD\inventario_proyecto\obj\Debug\net10.0\inventario_proyecto.AssemblyInfoInputs.cache
+C:\Users\Scarleth\Desktop\UNIVERSIDAD\inventario_proyecto\obj\Debug\net10.0\inventario_proyecto.AssemblyInfo.cs
+C:\Users\Scarleth\Desktop\UNIVERSIDAD\inventario_proyecto\obj\Debug\net10.0\inventario_proyecto.csproj.CoreCompileInputs.cache
+C:\Users\Scarleth\Desktop\UNIVERSIDAD\inventario_proyecto\obj\Debug\net10.0\inventario_proyecto.sourcelink.json
+C:\Users\Scarleth\Desktop\UNIVERSIDAD\inventario_proyecto\obj\Debug\net10.0\inventario_proyecto.dll
+C:\Users\Scarleth\Desktop\UNIVERSIDAD\inventario_proyecto\obj\Debug\net10.0\refint\inventario_proyecto.dll
+C:\Users\Scarleth\Desktop\UNIVERSIDAD\inventario_proyecto\obj\Debug\net10.0\inventario_proyecto.pdb
+C:\Users\Scarleth\Desktop\UNIVERSIDAD\inventario_proyecto\obj\Debug\net10.0\inventario_proyecto.genruntimeconfig.cache
+C:\Users\Scarleth\Desktop\UNIVERSIDAD\inventario_proyecto\obj\Debug\net10.0\ref\inventario_proyecto.dll
