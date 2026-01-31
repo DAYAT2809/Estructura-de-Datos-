@@ -1,0 +1,64 @@
+using System;
+using System.Collections.Generic;
+
+class Persona
+{
+    public string Nombre { get; set; }
+
+    public Persona(string nombre)
+    {
+        Nombre = nombre;
+    }
+}
+
+class Atraccion
+{
+    private Queue<Persona> colaPersonas;
+    private int capacidadMaxima = 30;
+
+    public Atraccion()
+    {
+        colaPersonas = new Queue<Persona>();
+    }
+
+    public void AgregarPersona(Persona persona)
+    {
+        if (colaPersonas.Count < capacidadMaxima)
+        {
+            colaPersonas.Enqueue(persona);
+            Console.WriteLine(persona.Nombre + " fue agregado a la cola.");
+        }
+        else
+        {
+            Console.WriteLine("No hay asientos disponibles.");
+        }
+    }
+
+    public void MostrarReporteria()
+    {
+        Console.WriteLine("\n--- REPORTERÍA ---");
+        Console.WriteLine("Asientos ocupados: " + colaPersonas.Count);
+
+        foreach (Persona p in colaPersonas)
+        {
+            Console.WriteLine("- " + p.Nombre);
+        }
+    }
+}
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Atraccion atraccion = new Atraccion();
+
+        for (int i = 1; i <= 30; i++)
+        {
+            atraccion.AgregarPersona(new Persona("Persona " + i));
+        }
+
+        atraccion.MostrarReporteria();
+
+        Console.ReadKey();
+    }
+}

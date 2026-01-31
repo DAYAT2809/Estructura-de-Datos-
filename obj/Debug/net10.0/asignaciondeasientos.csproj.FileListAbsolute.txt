@@ -1,0 +1,15 @@
+C:\Users\Scarleth\Desktop\UNIVERSIDAD\inventario_proyecto\asignaciondeasientos\bin\Debug\net10.0\asignaciondeasientos.exe
+C:\Users\Scarleth\Desktop\UNIVERSIDAD\inventario_proyecto\asignaciondeasientos\bin\Debug\net10.0\asignaciondeasientos.deps.json
+C:\Users\Scarleth\Desktop\UNIVERSIDAD\inventario_proyecto\asignaciondeasientos\bin\Debug\net10.0\asignaciondeasientos.runtimeconfig.json
+C:\Users\Scarleth\Desktop\UNIVERSIDAD\inventario_proyecto\asignaciondeasientos\bin\Debug\net10.0\asignaciondeasientos.dll
+C:\Users\Scarleth\Desktop\UNIVERSIDAD\inventario_proyecto\asignaciondeasientos\bin\Debug\net10.0\asignaciondeasientos.pdb
+C:\Users\Scarleth\Desktop\UNIVERSIDAD\inventario_proyecto\asignaciondeasientos\obj\Debug\net10.0\asignaciondeasientos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Scarleth\Desktop\UNIVERSIDAD\inventario_proyecto\asignaciondeasientos\obj\Debug\net10.0\asignaciondeasientos.AssemblyInfoInputs.cache
+C:\Users\Scarleth\Desktop\UNIVERSIDAD\inventario_proyecto\asignaciondeasientos\obj\Debug\net10.0\asignaciondeasientos.AssemblyInfo.cs
+C:\Users\Scarleth\Desktop\UNIVERSIDAD\inventario_proyecto\asignaciondeasientos\obj\Debug\net10.0\asignaciondeasientos.csproj.CoreCompileInputs.cache
+C:\Users\Scarleth\Desktop\UNIVERSIDAD\inventario_proyecto\asignaciondeasientos\obj\Debug\net10.0\asignaciondeasientos.sourcelink.json
+C:\Users\Scarleth\Desktop\UNIVERSIDAD\inventario_proyecto\asignaciondeasientos\obj\Debug\net10.0\asignaciondeasientos.dll
+C:\Users\Scarleth\Desktop\UNIVERSIDAD\inventario_proyecto\asignaciondeasientos\obj\Debug\net10.0\refint\asignaciondeasientos.dll
+C:\Users\Scarleth\Desktop\UNIVERSIDAD\inventario_proyecto\asignaciondeasientos\obj\Debug\net10.0\asignaciondeasientos.pdb
+C:\Users\Scarleth\Desktop\UNIVERSIDAD\inventario_proyecto\asignaciondeasientos\obj\Debug\net10.0\asignaciondeasientos.genruntimeconfig.cache
+C:\Users\Scarleth\Desktop\UNIVERSIDAD\inventario_proyecto\asignaciondeasientos\obj\Debug\net10.0\ref\asignaciondeasientos.dll
