@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TraductorBasicoIngles", "TraductorBasicoIngles", "{26DF2657-A222-9BD4-D4BC-52395C8B06AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "asignaciondeasientos", "TraductorBasicoIngles\asignaciondeasientos.csproj", "{2A0307D3-5E06-0E39-AF46-1DDFAAF44614}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A0307D3-5E06-0E39-AF46-1DDFAAF44614}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A0307D3-5E06-0E39-AF46-1DDFAAF44614}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A0307D3-5E06-0E39-AF46-1DDFAAF44614}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A0307D3-5E06-0E39-AF46-1DDFAAF44614}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2A0307D3-5E06-0E39-AF46-1DDFAAF44614} = {26DF2657-A222-9BD4-D4BC-52395C8B06AD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B9CBCAA0-F112-4B87-9B07-C3241D6F53EF}
+	EndGlobalSection
+EndGlobal
