@@ -1,0 +1,5 @@
+Quito,Bogotá,120,08:00
+Quito,Cartagena,180,12:00
+Quito,Cartagena,150,16:00
+Bogotá,Cartagena,90,10:00
+Bogotá,Quito,120,14:00
